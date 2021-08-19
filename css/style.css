@@ -1,0 +1,54 @@
+body {
+  background-color: #00000f;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.caixa-cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff09;
+
+  padding: 2rem 0;
+}
+
+.caixa-cabecalho__titulo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.caixa-cabecalho__img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+footer img {
+  width: 25px;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+  .caixa-cabecalho {
+    display: block;
+    text-align: center;
+  }
+
+  .caixa-cabecalho__img {
+    margin-top: 1rem;
+  }
+}

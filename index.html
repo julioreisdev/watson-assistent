@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Controle de irrigação - bot</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/Fatcow-Farm-Fresh-Robo-to.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <section class="caixa-cabecalho">
+      <h1 class="caixa-cabecalho__titulo">Controle de irrigação - bot</h1>
+      <img class="caixa-cabecalho__img" src="img/Fatcow-Farm-Fresh-Robo-to.ico">
+    </section>
+  </header>
+
+  <footer>
+    <img src="img/ifpi.png">
+    <p>&copy; IC2020 - IFPI(CASRN)</p>
+  </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "3ce77ea8-4857-4105-a77a-825599110c1b", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "e769522e-a048-4a36-b1e6-b2b35caa7558", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
+</body>
+
+</html>
