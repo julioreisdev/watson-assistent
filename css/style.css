@@ -1,6 +1,6 @@
 body {
-  background-color: #00000f;
-  color: aliceblue;
+  background-color: snow;
+  color: #fdfdfd;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff09;
+  background-color: black;
+  box-shadow: 0 2px 5px black;
 
   padding: 2rem 0;
 }
@@ -32,7 +33,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  color: #000;
   position: fixed;
   bottom: 0;
   width: 100vw;
