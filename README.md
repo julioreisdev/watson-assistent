@@ -1,3 +1,4 @@
 # IC2020
 ## Iniciação científica IFPI/CNPQ
-### assistente-bot-watson
+### `Online`
+Acesse esse [link](https://julioreisdev.github.io/watson-assistent/)
